@@ -50,7 +50,7 @@ jobs:
             VERSION=${{ github.sha }}
           context: .
           no-cache: true
-          platforms: linux/arm64
+          platforms: linux/amd64
           push: true
           tags: ${{ env.FULL_IMAGE_NAME }}
 
